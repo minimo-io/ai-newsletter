@@ -1,8 +1,23 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script lang="ts">
+	import { IconHeart } from '@tabler/icons-svelte';
+	import { clipboard } from '@skeletonlabs/skeleton';
+	import DeviceVisionPro from '@tabler/icons-svelte/icons/device-vision-pro';
 
+	const exampleData: string = 'Texto re- copiado!';
+	let copied = false;
+	function onClickHandler(): void {
+		copied = true;
+		setTimeout(() => {
+			copied = false;
+		}, 1000);
+	}
+</script>
+
+<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
-		<h2 class="h2">Welcome to Skeleton.</h2>
+		<!-- Responsive Container (recommended) -->
+
 		<!-- Animated Logo -->
 		<figure>
 			<section class="img-bg" />
@@ -18,18 +33,48 @@
 			</svg>
 		</figure>
 		<!-- / -->
+		<div class="table-container">
+			<!-- Native Table Element -->
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>Position</th>
+						<th>Name</th>
+						<th>Symbol</th>
+						<th>Weight</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Pepe Grillo</td>
+						<td>PT</td>
+						<td>26</td>
+					</tr></tbody
+				>
+				<!-- <tfoot>
+					<tr>
+						<th colspan="3">Calculated Total Weight</th>
+						<td>2313</td>
+					</tr>
+				</tfoot> -->
+			</table>
+		</div>
+		<button
+			use:clipboard={exampleData}
+			class="btn variant-filled"
+			on:click={onClickHandler}
+			disabled={copied}
+		>
+			{copied ? 'Copied 👍' : 'Copy'}
+		</button>
 		<div class="flex justify-center space-x-2">
-			<a
-				class="btn variant-filled"
-				href="https://skeleton.dev/"
-				target="_blank"
-				rel="noreferrer"
-			>
+			<a class="btn variant-filled" href="https://skeleton.dev/" target="_blank" rel="noreferrer">
 				Launch Documentation
 			</a>
 		</div>
 		<div class="space-y-2">
-			<p>Try editing the following:</p>
+			<p>Try editing the following amigo:</p>
 			<p><code class="code">/src/routes/+layout.svelte</code></p>
 			<p><code class="code">/src/routes/+page.svelte</code></p>
 		</div>
@@ -46,7 +91,8 @@
 	}
 	.img-bg {
 		@apply absolute z-[-1] rounded-full blur-[50px] transition-all;
-		animation: pulse 5s cubic-bezier(0, 0, 0, 0.5) infinite,
+		animation:
+			pulse 5s cubic-bezier(0, 0, 0, 0.5) infinite,
 			glow 5s linear infinite;
 	}
 	@keyframes glow {
