@@ -50,7 +50,7 @@
 						<span class="sr-only">X (formerly known as Twitter)</span>
 					</div>
 				</a>
-				<ModeToggle />
+				<!-- <ModeToggle /> -->
 			</nav>
 		</div>
 	</div>

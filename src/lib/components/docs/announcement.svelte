@@ -18,6 +18,6 @@
 >
 	<Blocks class="size-4" />
 	<Separator class="mx-2 h-4" orientation="vertical" />
-	<span>Conheça nossos cursos</span>
+	<span>Aumente sua produtividade</span>
 	<Icons.arrowRight class="ml-1 size-4" />
 </a>

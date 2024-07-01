@@ -7,7 +7,7 @@
 	import { cn } from '$lib/utils.js';
 </script>
 
-<div class="container relative">
+<div class="container relative z-10">
 	<PageHeader.Root class="pb-8">
 		<Announcement />
 		<PageHeader.Heading>
@@ -42,7 +42,17 @@
 			>.
 		</p> -->
 		<div class="flex w-full items-center justify-center space-x-4 py-4 md:pb-10">
-			<a href="/assine" class={cn(buttonVariants())}> Começar agora </a>
+			<iframe
+				title="Suscribase"
+				src="https://embeds.beehiiv.com/a4e57abb-ef8e-4d65-b939-ca8d2ca7d243?slim=true"
+				data-test-id="beehiiv-embed"
+				height="52"
+				frameborder="0"
+				scrolling="no"
+				style="margin: 0; border-radius: 6px !important; background-color: transparent;width:90%;"
+			></iframe>
+
+			<!-- <a href="/assine" class={cn(buttonVariants())}> Começar agora </a>
 			<a
 				target="_blank"
 				rel="noreferrer"
@@ -51,7 +61,7 @@
 			>
 				<Icons.gitHub class="mr-2 h-4 w-4" />
 				GitHub
-			</a>
+			</a> -->
 		</div>
 	</PageHeader.Root>
 </div>
