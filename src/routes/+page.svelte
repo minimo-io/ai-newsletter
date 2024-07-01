@@ -18,7 +18,8 @@
 		<PageHeader.Description class="text-muted-foreground">
 			<!-- Beautifully designed components that you can copy and paste into your apps. Accessible.
 			Customizable. Open Source. -->
-			Ferramentas, recursos e notícias de Inteligencia Artificial (para alabancar a sua empresa e produtividade)!
+			Vamos impulsionar o seu negócio (e sua vida) com o poder da IA! Ferramentas, recursos e notícias
+			de produtividade.
 		</PageHeader.Description>
 		<PageHeader.Description class="text-muted-foreground">
 			<!-- Beautifully designed components that you can copy and paste into your apps. Accessible.
