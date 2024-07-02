@@ -2,7 +2,10 @@ import { createServerClient } from '@supabase/ssr';
 import { type Handle, redirect } from '@sveltejs/kit';
 import { sequence } from '@sveltejs/kit/hooks';
 
-import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
+// Grab our credentials from a .env file or environment variables
+import dotenv from 'dotenv';
+dotenv.config();
+const { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } = process.env;
 
 const supabase: Handle = async ({ event, resolve }) => {
 	/**
