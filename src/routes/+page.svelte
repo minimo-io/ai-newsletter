@@ -18,13 +18,13 @@
 		<PageHeader.Description class="text-muted-foreground">
 			<!-- Beautifully designed components that you can copy and paste into your apps. Accessible.
 			Customizable. Open Source. -->
-			Vamos impulsionar o seu negócio (e sua vida) com o poder da IA! Ferramentas, recursos e notícias
-			de produtividade.
+			Entenda cómo impulsionar o seu negócio (e sua vida) com o poder da IA!
 		</PageHeader.Description>
 		<PageHeader.Description class="text-muted-foreground">
 			<!-- Beautifully designed components that you can copy and paste into your apps. Accessible.
 			Customizable. Open Source. -->
-			Vamos além do medo?
+			Ferramentas, recursos e notícias de produtividade.
+			<!-- Vamos além do medo? -->
 		</PageHeader.Description>
 
 		<!-- <p class="text-center text-sm text-orange-700 dark:text-orange-400">

@@ -2,7 +2,8 @@ export const siteConfig = {
 	name: 'BRAINWAVES',
 	url: 'https://ia.minimo.io',
 	ogImage: 'https://ia.minimo.io/og.png',
-	description: 'Beautifully designed components built with Melt UI and Tailwind CSS.',
+	description:
+		'Enteda cómo impulsionar o seu negócio (e sua vida) com o poder da inteligência artificial (IA)!',
 	links: {
 		author: 'https://minimo.io',
 		twitter: 'https://twitter.com/huntabyte',
@@ -10,7 +11,7 @@ export const siteConfig = {
 		shadTwitter: 'https://twitter.com/shadcn',
 		shadGithub: 'https://github.com/shadcn/ui'
 	},
-	keywords: `shadcn,Svelte,SvelteKit,Svelte Components,TailwindCSS,Melt UI,Bit UI`
+	keywords: `ia,inteligência artificial,ferramentas`
 };
 
 export type SiteConfig = typeof siteConfig;

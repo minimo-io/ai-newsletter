@@ -1,7 +1,13 @@
 {
-	"name": "shadn-ny",
+	"name": "ai-newsletter",
 	"version": "0.0.1",
 	"private": true,
+	"author": {
+		"name": "Nicolas Erramuspe",
+		"email": "nicolas@minimo.io",
+		"url": "https://minimo.io"
+	},
+	"homepage": "https://ia.minimo.io",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
