@@ -27,21 +27,6 @@
 			<!-- Vamos além do medo? -->
 		</PageHeader.Description>
 
-		<!-- <p class="text-center text-sm text-orange-700 dark:text-orange-400">
-			This is an unofficial port of <a
-				href={siteConfig.links.shadGithub}
-				target="_blank"
-				rel="noreferrer"
-				class="font-medium underline underline-offset-4">shadcn/ui</a
-			>
-			to Svelte, and is not affiliated with
-			<a
-				href={siteConfig.links.shadTwitter}
-				target="_blank"
-				rel="noreferrer"
-				class="font-medium underline underline-offset-4">@shadcn</a
-			>.
-		</p> -->
 		<div class="flex w-full items-center justify-center space-x-4 py-4 md:pb-10">
 			<iframe
 				title="Suscribase"

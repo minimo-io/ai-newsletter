@@ -11,7 +11,7 @@
 					minimo</a
 				>. Nos ombros de gigantes:
 				<a
-					href={siteConfig.links.shadTwitter}
+					href="https://x.com/shadcn"
 					target="_blank"
 					rel="noreferrer"
 					class="font-medium underline underline-offset-4"
@@ -20,7 +20,7 @@
 				>
 				e
 				<a
-					href={siteConfig.links.twitter}
+					href="https://x.com/huntabyte"
 					target="_blank"
 					rel="noreferrer"
 					class="font-medium underline underline-offset-4"

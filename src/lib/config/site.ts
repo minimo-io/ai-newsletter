@@ -6,10 +6,8 @@ export const siteConfig = {
 		'Enteda cómo impulsionar o seu negócio (e sua vida) com o poder da inteligência artificial (IA)!',
 	links: {
 		author: 'https://minimo.io',
-		twitter: 'https://twitter.com/huntabyte',
-		github: 'https://github.com/huntabyte/shadcn-svelte',
-		shadTwitter: 'https://twitter.com/shadcn',
-		shadGithub: 'https://github.com/shadcn/ui'
+		twitter: 'https://x.com/minimo_io',
+		github: 'https://github.com/minimo-io'
 	},
 	keywords: `ia,inteligência artificial,ferramentas`
 };
