@@ -18,8 +18,8 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-netlify": "^4.1.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-netlify": "^4.1.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@tailwindcss/typography": "^0.5.13",
@@ -43,6 +43,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@supabase/auth-ui-svelte": "^0.2.9",
+		"@supabase/ssr": "^0.4.0",
+		"@supabase/supabase-js": "^2.44.2",
 		"bits-ui": "^0.21.10",
 		"clsx": "^2.1.1",
 		"cmdk-sv": "^0.0.15",
