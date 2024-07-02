@@ -44,7 +44,7 @@
 	{...$$restProps}
 >
 	<span class="hidden lg:inline-flex"> Procurar sobre IA... </span>
-	<span class="inline-flex lg:hidden">Search...</span>
+	<span class="inline-flex lg:hidden">Procurar...</span>
 	<kbd
 		class="pointer-events-none absolute right-1.5 top-1.5 hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex"
 	>
