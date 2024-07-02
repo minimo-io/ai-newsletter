@@ -3,6 +3,7 @@ import { type Handle, redirect } from '@sveltejs/kit';
 import { sequence } from '@sveltejs/kit/hooks';
 
 // Grab our credentials from a .env file or environment variables
+// not working
 import dotenv from 'dotenv';
 dotenv.config();
 const { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } = process.env;
