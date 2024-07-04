@@ -39,12 +39,6 @@
 				scrolling="no"
 				style="margin: 0; border-radius: 6px !important; background-color: transparent;width:90%;"
 			></iframe>
-			<ul>
-				<li>{countries[Math.floor(Math.random() * countries.length)].name}</li>
-				<!-- {#each countries as country}
-					<li>{country.name}</li>
-				{/each} -->
-			</ul>
 			<!-- <a href="/assine" class={cn(buttonVariants())}> Começar agora </a>
 			<a
 				target="_blank"
@@ -55,6 +49,12 @@
 				<Icons.gitHub class="mr-2 h-4 w-4" />
 				GitHub
 			</a> -->
+		</div>
+		<div>
+			{countries[Math.floor(Math.random() * countries.length)].name}
+			<!-- {#each countries as country}
+					<li>{country.name}</li>
+				{/each} -->
 		</div>
 	</PageHeader.Root>
 </div>
