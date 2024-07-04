@@ -39,10 +39,11 @@
 				scrolling="no"
 				style="margin: 0; border-radius: 6px !important; background-color: transparent;width:90%;"
 			></iframe>
-			<ul class="hidden">
-				{#each countries as country}
+			<ul>
+				<li>{countries[Math.floor(Math.random() * countries.length)].name}</li>
+				<!-- {#each countries as country}
 					<li>{country.name}</li>
-				{/each}
+				{/each} -->
 			</ul>
 			<!-- <a href="/assine" class={cn(buttonVariants())}> Começar agora </a>
 			<a
