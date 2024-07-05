@@ -32,7 +32,7 @@
 
 		<div class="z-10 flex w-full items-center justify-center space-x-4 py-4 md:pb-10">
 			<iframe
-				title="Suscribase"
+				title="Inscreva-se"
 				src="https://embeds.beehiiv.com/a4e57abb-ef8e-4d65-b939-ca8d2ca7d243?slim=true"
 				data-test-id="beehiiv-embed"
 				height="52"
