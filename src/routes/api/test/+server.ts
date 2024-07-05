@@ -7,8 +7,6 @@ import { json, error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
 export const GET: RequestHandler = (event) => {
-	// console.log(event.cookies.get('bztc'));
-
 	// Simple Param Auth (not recommended, can be logged or indexed)
 	// const key = event.url.searchParams.get('key');
 	// if (key !== 'givemethedata') {
