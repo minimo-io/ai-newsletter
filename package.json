@@ -7,7 +7,7 @@
 		"email": "nicolas@minimo.io",
 		"url": "https://minimo.io"
 	},
-	"homepage": "https://ia.minimo.io",
+	"homepage": "https://newsletter.minimo.io",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
