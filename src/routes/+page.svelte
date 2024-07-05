@@ -5,8 +5,9 @@
 	import { buttonVariants } from '$lib/registry/new-york/ui/button/index.js';
 	import { cn } from '$lib/utils.js';
 
+	// export let data;
+	// $: ({ countries } = data);
 	export let data;
-	$: ({ countries } = data);
 </script>
 
 <div class="container relative">
@@ -51,10 +52,11 @@
 			</a> -->
 		</div>
 		<div>
-			{countries[Math.floor(Math.random() * countries.length)].name}
-			<!-- {#each countries as country}
-					<li>{country.name}</li>
-				{/each} -->
+			<!-- NO COUNTRIES FOR OLD MAN! -->
+			<!-- {data.countries[Math.floor(Math.random() * data.countries.length)].name} -->
+			{#each data.countries as country}
+				<li>{country.name}</li>
+			{/each}
 		</div>
 	</PageHeader.Root>
 </div>
