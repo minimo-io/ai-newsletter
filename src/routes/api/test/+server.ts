@@ -24,7 +24,7 @@ export const GET: RequestHandler = (event) => {
 	// Ideally do the authorization checks in hooks
 	// https://sveltekit.io/blog/sveltekit-api
 
-	// Final notes
+	// Final notes on this deploy!
 
 	const companyDetails = {
 		name: 'Brainwaves Newsletter',
