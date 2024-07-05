@@ -21,7 +21,7 @@ if (isSupabaseConfig(process.env)) {
 	const { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } = process.env;
 	supabase = supabasePkg.createClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY);
 } else {
-	throw new Error('Missing required environment variables');
+	throw new Error('Hey, missing required environment variables');
 }
 
 export { supabase };
