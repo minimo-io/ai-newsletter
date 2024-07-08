@@ -1,31 +1,26 @@
 <script lang="ts">
-	import { Announcement } from '$lib/components/docs/index.js';
-	import * as PageHeader from '$lib/components/docs/page-header/index.js';
-	import { Icons } from '$lib/components/docs/icons/index.js';
-	import { buttonVariants } from '$lib/registry/new-york/ui/button/index.js';
-	import { cn } from '$lib/utils.js';
+	import { Announcement } from '$lib/components/index.js';
+	import * as PageHeader from '$lib/components/page-header/index.js';
+	// import { Icons } from '$lib/components/icons/index.js';
+	// import { buttonVariants } from '$lib/registry/new-york/ui/button/index.js';
+	// import { cn } from '$lib/utils.js';
 
 	// export let data;
 	// $: ({ countries } = data);
-	export let data;
+	// export let data;
 </script>
 
 <div class="container relative">
 	<PageHeader.Root class="pb-8">
 		<Announcement class="z-10" />
 		<PageHeader.Heading>
-			<!-- Build your component library -->
 			<!-- IA para alavancar a sua empresa -->
 			O maior newsletter <br /> de IA do 🇧🇷 Brasil!
 		</PageHeader.Heading>
 		<PageHeader.Description class="text-muted-foreground">
-			<!-- Beautifully designed components that you can copy and paste into your apps. Accessible.
-			Customizable. Open Source. -->
 			Entenda cómo impulsionar o seu negócio (e sua vida) com o poder da IA!
 		</PageHeader.Description>
 		<PageHeader.Description class="text-muted-foreground">
-			<!-- Beautifully designed components that you can copy and paste into your apps. Accessible.
-			Customizable. Open Source. -->
 			Ferramentas, recursos e notícias de produtividade.
 			<!-- Vamos além do medo? -->
 		</PageHeader.Description>
@@ -50,13 +45,6 @@
 				<Icons.gitHub class="mr-2 h-4 w-4" />
 				GitHub
 			</a> -->
-		</div>
-		<div>
-			<!-- NO COUNTRIES FOR OLD MAN! -->
-			<!-- {data.countries[Math.floor(Math.random() * data.countries.length)].name} -->
-			{#each data.countries as country}
-				<li>{country.name}</li>
-			{/each}
 		</div>
 	</PageHeader.Root>
 </div>

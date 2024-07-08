@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { onMount } from "svelte";
-	import { writable } from "svelte/store";
-	import type { TableOfContents, TableOfContentsItem } from "$lib/types/docs.js";
-	import { Tree } from "$lib/components/docs/index.js";
+	import { onMount } from 'svelte';
+	import { writable } from 'svelte/store';
+	import type { TableOfContents, TableOfContentsItem } from '$lib/types/docs.js';
+	import { Tree } from '$lib/components/index.js';
 
 	let filteredHeadingsList: TableOfContents;
 
@@ -13,7 +13,7 @@
 			return { items: [] };
 		}
 
-		const headings: HTMLHeadingElement[] = Array.from(div.querySelectorAll("h2, h3"));
+		const headings: HTMLHeadingElement[] = Array.from(div.querySelectorAll('h2, h3'));
 		const hierarchy: TableOfContents = { items: [] };
 		let currentLevel: TableOfContentsItem | undefined = undefined;
 
@@ -23,8 +23,8 @@
 			const level = Number.parseInt(heading.tagName.charAt(1));
 			if (!heading.id) {
 				let newId = heading.innerText
-					.replaceAll(/[^a-zA-Z0-9 ]/g, "")
-					.replaceAll(" ", "-")
+					.replaceAll(/[^a-zA-Z0-9 ]/g, '')
+					.replaceAll(' ', '-')
 					.toLowerCase();
 				if (newIdSet.has(newId)) {
 					newId = `${newId}-${count}`;
@@ -35,9 +35,9 @@
 			}
 
 			const item: TableOfContentsItem = {
-				title: heading.textContent || "",
+				title: heading.textContent || '',
 				url: `#${heading.id}`,
-				items: [],
+				items: []
 			};
 
 			if (level === 2) {
@@ -88,13 +88,13 @@
 
 	// Lifecycle
 	onMount(() => {
-		getHeadingsWithHierarchy("markdown");
+		getHeadingsWithHierarchy('markdown');
 		const allItemIds: string[] = [];
 		filteredHeadingsList.items.forEach((item) => {
-			allItemIds.push(item.url.replace("#", ""));
+			allItemIds.push(item.url.replace('#', ''));
 			if (!item.items) return;
 			item.items.forEach((subItem) => {
-				allItemIds.push(subItem.url.replace("#", ""));
+				allItemIds.push(subItem.url.replace('#', ''));
 			});
 		});
 		return useActiveItem(allItemIds);

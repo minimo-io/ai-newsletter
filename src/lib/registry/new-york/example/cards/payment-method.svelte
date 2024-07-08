@@ -1,26 +1,26 @@
 <script lang="ts">
-	import { nanoid } from "nanoid";
-	import * as Card from "$lib/registry/new-york/ui/card/index.js";
-	import { Button } from "$lib/registry/new-york/ui/button/index.js";
-	import { Icons } from "$lib/components/docs/icons/index.js";
-	import { Label } from "$lib/registry/new-york/ui/label/index.js";
-	import { Input } from "$lib/registry/new-york/ui/input/index.js";
-	import * as RadioGroup from "$lib/registry/new-york/ui/radio-group/index.js";
-	import * as Select from "$lib/registry/new-york/ui/select/index.js";
+	import { nanoid } from 'nanoid';
+	import * as Card from '$lib/registry/new-york/ui/card/index.js';
+	import { Button } from '$lib/registry/new-york/ui/button/index.js';
+	import { Icons } from '$lib/components/icons/index.js';
+	import { Label } from '$lib/registry/new-york/ui/label/index.js';
+	import { Input } from '$lib/registry/new-york/ui/input/index.js';
+	import * as RadioGroup from '$lib/registry/new-york/ui/radio-group/index.js';
+	import * as Select from '$lib/registry/new-york/ui/select/index.js';
 
 	const months = [
-		"January",
-		"February",
-		"March",
-		"April",
-		"May",
-		"June",
-		"July",
-		"August",
-		"September",
-		"October",
-		"November",
-		"December",
+		'January',
+		'February',
+		'March',
+		'April',
+		'May',
+		'June',
+		'July',
+		'August',
+		'September',
+		'October',
+		'November',
+		'December'
 	];
 
 	const id = nanoid(5);
@@ -57,12 +57,7 @@
 				for="paypal-{id}"
 				class="flex flex-col items-center justify-between rounded-md border-2 border-muted bg-transparent p-4 hover:bg-accent hover:text-accent-foreground [&:has([data-state=checked])]:border-primary"
 			>
-				<RadioGroup.Item
-					value="paypal"
-					id="paypal-{id}"
-					class="sr-only"
-					aria-label="Paypal"
-				/>
+				<RadioGroup.Item value="paypal" id="paypal-{id}" class="sr-only" aria-label="Paypal" />
 				<Icons.paypal class="mb-3 h-6 w-6" />
 				Paypal
 			</Label>

@@ -3,7 +3,7 @@
 
 	import { ModeWatcher } from 'mode-watcher';
 	import { page } from '$app/stores';
-	import { Metadata } from '$lib/components/docs/index.js';
+	import { Metadata } from '$lib/components/index.js';
 	import { updateTheme } from '$lib/utils.js';
 	import { config } from '$lib/stores/index.js';
 	import { Toaster as DefaultSonner } from '$lib/registry/default/ui/sonner/index.js';
@@ -11,7 +11,7 @@
 
 	$: updateTheme($config.theme, $page.url.pathname);
 
-	import { SiteFooter, SiteHeader, TailwindIndicator } from '$lib/components/docs/index.js';
+	import { SiteFooter, SiteHeader, TailwindIndicator } from '$lib/components/index.js';
 	import { dev } from '$app/environment';
 </script>
 

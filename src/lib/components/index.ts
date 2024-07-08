@@ -1,7 +1,5 @@
 export { default as Callout } from './callout.svelte';
 export { default as CodeBlockWrapper } from './code-block-wrapper.svelte';
-export { default as ComponentExample } from './component-example.svelte';
-// export { default as ComponentPreview } from "./component-preview.svelte";
 export { default as ComponentSource } from './component-source.svelte';
 export { default as CopyButton } from './copy-button.svelte';
 export { default as DocsPager } from './docs-pager.svelte';
@@ -27,7 +25,3 @@ export { default as LinkedCard } from './linked-card.svelte';
 export * from './icons/index.js';
 export * from './page-header/index.js';
 export * from './nav/index.js';
-export * from './examples-nav/index.js';
-// export * from './dashboard/index.js';
-// export * from './theme-customizer/index.js';
-// export * from './forms/index.js';

@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Minus from "lucide-svelte/icons/minus";
-	import Plus from "lucide-svelte/icons/plus";
-	import * as Card from "$lib/registry/default/ui/card/index.js";
-	import { Button } from "$lib/registry/default/ui/button/index.js";
-	import { Activity } from "$lib/components/docs/charts/index.js";
+	import Minus from 'lucide-svelte/icons/minus';
+	import Plus from 'lucide-svelte/icons/plus';
+	import * as Card from '$lib/registry/default/ui/card/index.js';
+	import { Button } from '$lib/registry/default/ui/button/index.js';
+	import { Activity } from '$lib/components/charts/index.js';
 
 	let goal = 350;
 	function updateGoal(adjustment: number) {

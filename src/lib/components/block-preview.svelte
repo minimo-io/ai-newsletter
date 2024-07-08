@@ -1,13 +1,13 @@
 <script lang="ts">
-	import type { PaneAPI } from "paneforge";
-	import BlockToolbar from "./block-toolbar.svelte";
-	import { config } from "$lib/stores/config.js";
+	import type { PaneAPI } from 'paneforge';
+	import BlockToolbar from './block-toolbar.svelte';
+	import { config } from '$lib/stores/config.js';
 
-	import * as Tabs from "$lib/registry/new-york/ui/tabs/index.js";
-	import * as Resizable from "$lib/registry/new-york/ui/resizable/index.js";
-	import { Icons } from "$lib/components/docs/icons/index.js";
-	import type { Block } from "$lib/registry/schema.js";
-	import { cn, getLiftMode, styleToString } from "$lib/utils.js";
+	import * as Tabs from '$lib/registry/new-york/ui/tabs/index.js';
+	import * as Resizable from '$lib/registry/new-york/ui/resizable/index.js';
+	import { Icons } from '$lib/components/icons/index.js';
+	import type { Block } from '$lib/registry/schema.js';
+	import { cn, getLiftMode, styleToString } from '$lib/utils.js';
 
 	let isLoading = true;
 
@@ -18,8 +18,8 @@
 	const { isLiftMode } = getLiftMode(block.name);
 
 	$: tabStyle = block.container?.height
-		? styleToString({ "--container-height": block.container.height })
-		: "";
+		? styleToString({ '--container-height': block.container.height })
+		: '';
 </script>
 
 {#if $config.style === block.style}
@@ -38,8 +38,8 @@
 				<Resizable.Pane
 					bind:pane={resizablePaneRef}
 					class={cn(
-						"relative rounded-lg border bg-background",
-						$isLiftMode ? "border-border/50" : "border-border"
+						'relative rounded-lg border bg-background',
+						$isLiftMode ? 'border-border/50' : 'border-border'
 					)}
 					defaultSize={100}
 					minSize={30}
@@ -64,8 +64,8 @@
 				</Resizable.Pane>
 				<Resizable.Handle
 					class={cn(
-						"relative hidden w-3 bg-transparent p-0 after:absolute after:right-0 after:top-1/2 after:h-8 after:w-[6px] after:-translate-y-1/2 after:translate-x-[-1px] after:rounded-full after:bg-border after:transition-all after:hover:h-10 sm:block",
-						$isLiftMode && "invisible"
+						'relative hidden w-3 bg-transparent p-0 after:absolute after:right-0 after:top-1/2 after:h-8 after:w-[6px] after:-translate-y-1/2 after:translate-x-[-1px] after:rounded-full after:bg-border after:transition-all after:hover:h-10 sm:block',
+						$isLiftMode && 'invisible'
 					)}
 				/>
 				<Resizable.Pane defaultSize={0} minSize={0} />

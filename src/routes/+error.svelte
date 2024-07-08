@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import * as PageHeader from '$lib/components/docs/page-header';
+	import * as PageHeader from '$lib/components/page-header';
 	import { error } from '@sveltejs/kit';
 </script>
 
