@@ -15,13 +15,13 @@
 		<Announcement class="z-10" />
 		<PageHeader.Heading>
 			<!-- IA para alavancar a sua empresa -->
-			O maior newsletter <br /> de IA do 🇧🇷 Brasil!
+			O maior newsletter <br /> de IA para empresas <br /> do 🇧🇷 Brasil!
 		</PageHeader.Heading>
 		<PageHeader.Description class="text-muted-foreground">
 			Entenda cómo impulsionar o seu negócio (e sua vida) com o poder da IA!
 		</PageHeader.Description>
 		<PageHeader.Description class="text-muted-foreground">
-			Ferramentas, recursos e notícias de produtividade.
+			Ferramentas e recursos de produtividade + Consultorías!
 			<!-- Vamos além do medo? -->
 		</PageHeader.Description>
 

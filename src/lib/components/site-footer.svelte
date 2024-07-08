@@ -9,7 +9,7 @@
 				Desenvolvido por
 				<a href={siteConfig.links.author} class="font-medium underline underline-offset-4">
 					minimo</a
-				>. Nos ombros de gigantes:
+				>. Nos ombros
 				<a
 					href="https://x.com/shadcn"
 					target="_blank"

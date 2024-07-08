@@ -15,10 +15,10 @@ export const docsConfig: DocsConfig = {
 			title: 'Cursos',
 			href: '/cursos'
 		},
-		{
-			title: 'Assinatura Pro',
-			href: '/pro'
-		},
+		// {
+		// 	title: 'Assinatura Pro',
+		// 	href: '/pro'
+		// },
 		{
 			title: 'Sponsors',
 			href: '/sponsors'
