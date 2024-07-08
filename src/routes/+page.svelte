@@ -21,7 +21,7 @@
 			Entenda cómo impulsionar o seu negócio (e sua vida) com o poder da IA!
 		</PageHeader.Description>
 		<PageHeader.Description class="text-muted-foreground">
-			Ferramentas e recursos de produtividade + Consultorías!
+			Ferramentas e recursos de produtividade!
 			<!-- Vamos além do medo? -->
 		</PageHeader.Description>
 
