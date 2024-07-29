@@ -22,6 +22,7 @@ import TriangleAlert from 'lucide-svelte/icons/triangle-alert';
 import User from 'lucide-svelte/icons/user';
 import X from 'lucide-svelte/icons/x';
 import External from 'lucide-svelte/icons/square-arrow-out-up-right';
+import Medal from 'lucide-svelte/icons/medal';
 
 import type { SvelteComponent } from 'svelte';
 import Apple from './apple.svelte';
@@ -80,5 +81,6 @@ export const Icons = {
 	apple: Apple,
 	paypal: PayPal,
 	Hamburger,
-	external: External
+	external: External,
+	medal: Medal
 };

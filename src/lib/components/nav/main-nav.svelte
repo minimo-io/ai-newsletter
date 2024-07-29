@@ -40,5 +40,15 @@
 			<span>Consultorias</span>
 			<Icons.external class=" inline h-3 w-3 align-middle" />
 		</a>
+		<a
+			href="/sponsors"
+			class={cn(
+				'transition-colors hover:text-foreground/80',
+				$page.url.pathname.startsWith('/sponsors') ? 'text-foreground' : 'text-foreground/60'
+			)}
+		>
+			<Icons.medal class=" inline h-3 w-3 align-middle" />
+			<span>Sponsors</span>
+		</a>
 	</nav>
 </div>

@@ -50,6 +50,10 @@
 						Consultorías
 						<Icons.external class=" inline h-3 w-3 align-[initial]" />
 					</MobileLink>
+					<MobileLink href="/sponsors" bind:open class="text-foreground">
+						Sponsors
+						<Icons.medal class=" inline h-3 w-3 align-[initial]" />
+					</MobileLink>
 					<!-- <h4 class="font-medium">{navItem.title}</h4> -->
 					{#each docsConfig.sidebarNav as navItem, index (index)}
 						{#if navItem?.items?.length}

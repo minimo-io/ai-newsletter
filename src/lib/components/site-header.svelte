@@ -15,6 +15,7 @@
 			<div class="w-full flex-1 md:w-auto md:flex-none">
 				<CommandMenu />
 			</div>
+			<!-- <ModeToggle /> -->
 			<nav class="flex items-center">
 				<a
 					href="/inscreva-se"
@@ -22,6 +23,7 @@
 				>
 					Inscreva-se
 				</a>
+
 				<!-- <a href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
 					<div
 						class={cn(
@@ -36,7 +38,6 @@
 						<span class="sr-only">X (formerly known as Twitter)</span>
 					</div>
 				</a> -->
-				<!-- <ModeToggle /> -->
 			</nav>
 		</div>
 	</div>

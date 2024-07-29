@@ -15,8 +15,8 @@
 				>
 					minimo-io</a
 				>
-				|
-				<a href="/sponsors" class="font-medium underline underline-offset-4">Patrocinadores</a>
+				<!-- |
+				<a href="/sponsors" class="font-medium underline underline-offset-4">Patrocinadores</a> -->
 
 				<!-- Nos ombros de
 				<a
