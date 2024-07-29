@@ -15,20 +15,12 @@
 			<div class="w-full flex-1 md:w-auto md:flex-none">
 				<CommandMenu />
 			</div>
-			<nav class="flex hidden items-center">
-				<a href={siteConfig.links.linkedin} target="_blank" rel="noopener noreferrer">
-					<div
-						class={cn(
-							buttonVariants({
-								size: 'sm',
-								variant: 'ghost'
-							}),
-							'w-9 px-0'
-						)}
-					>
-						<Icons.linkedIn class="h-4 w-4" />
-						<span class="sr-only">Linkedin</span>
-					</div>
+			<nav class="flex items-center">
+				<a
+					href="/inscreva-se"
+					class="bg-turquoise inline-flex h-9 items-center justify-center whitespace-nowrap rounded-md border border-input px-4 py-2 text-sm font-medium text-black shadow-sm transition-colors hover:opacity-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+				>
+					Inscreva-se
 				</a>
 				<!-- <a href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
 					<div

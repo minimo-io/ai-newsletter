@@ -28,6 +28,7 @@
 		</MobileLink>
 		<ScrollArea orientation="both" class="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
 			<div class="flex flex-col space-y-3">
+				<MobileLink href="/" bind:open class="text-foreground">Início</MobileLink>
 				{#each docsConfig.mainNav as navItem, index (navItem + index.toString())}
 					{#if navItem.href}
 						<MobileLink href={navItem.href} bind:open class="text-foreground">

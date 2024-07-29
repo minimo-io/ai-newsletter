@@ -12,7 +12,6 @@
 
 <div class="container relative">
 	<PageHeader.Root class="pb-8">
-		<!-- <div class="pb-2"><Icons.logo class="h-16 w-16" /></div> -->
 		<Announcement class="z-10 text-xs md:text-sm" />
 		<a href="/" class="mt-2 flex items-center text-sm md:text-xl">
 			<span class=" mr-2 font-bold sm:inline-block"> BRAINWAVES </span>
@@ -44,7 +43,7 @@
 			<div>
 				<Card.Root class="bg-chinese border-chineseX2 z-10 w-full text-center uppercase">
 					<Card.Header>
-						<Card.Title class="text-2xl font-light text-white md:text-4xl">+1200</Card.Title>
+						<Card.Title class="text-2xl font-light text-white md:text-3xl">+1200</Card.Title>
 						<Card.Description class="text-oslo text-xs ">empresários</Card.Description>
 					</Card.Header>
 				</Card.Root>
@@ -52,7 +51,7 @@
 			<div>
 				<Card.Root class="bg-chinese border-chineseX2 z-10 w-full text-center uppercase">
 					<Card.Header>
-						<Card.Title class="text-2xl font-light text-white md:text-4xl">+50</Card.Title>
+						<Card.Title class="text-2xl font-light text-white md:text-3xl">50</Card.Title>
 						<Card.Description class="text-oslo text-center text-xs ">ferramentas</Card.Description>
 					</Card.Header>
 				</Card.Root>
@@ -60,7 +59,7 @@
 			<div>
 				<Card.Root class="bg-chinese border-chineseX2 z-10 w-full text-center uppercase">
 					<Card.Header>
-						<Card.Title class="text-2xl font-light text-white md:text-4xl">+10</Card.Title>
+						<Card.Title class="text-2xl font-light text-white md:text-3xl">12</Card.Title>
 						<Card.Description class="text-oslo text-center text-xs">cursos</Card.Description>
 					</Card.Header>
 				</Card.Root>
@@ -68,8 +67,8 @@
 			<div>
 				<Card.Root class="bg-chinese border-chineseX2 z-10 w-full text-center uppercase">
 					<Card.Header>
-						<Card.Title class="text-2xl font-light text-white md:text-4xl">2</Card.Title>
-						<Card.Description class="text-oslo text-center text-xs ">consultores</Card.Description>
+						<Card.Title class="text-2xl font-light text-white md:text-3xl">3151</Card.Title>
+						<Card.Description class="text-oslo text-center text-xs ">notícias</Card.Description>
 					</Card.Header>
 				</Card.Root>
 			</div>
