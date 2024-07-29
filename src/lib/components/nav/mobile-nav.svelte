@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { Icons } from "../icons/index.js";
-	import MobileLink from "./mobile-link.svelte";
-	import * as Sheet from "$lib/registry/new-york/ui/sheet/index.js";
-	import { Button } from "$lib/registry/new-york/ui/button/index.js";
-	import { ScrollArea } from "$lib/registry/new-york/ui/scroll-area/index.js";
-	import { docsConfig } from "$lib/config/docs.js";
-	import { siteConfig } from "$lib/config/site.js";
+	import { Icons } from '../icons/index.js';
+	import MobileLink from './mobile-link.svelte';
+	import * as Sheet from '$lib/registry/new-york/ui/sheet/index.js';
+	import { Button } from '$lib/registry/new-york/ui/button/index.js';
+	import { ScrollArea } from '$lib/registry/new-york/ui/scroll-area/index.js';
+	import { docsConfig } from '$lib/config/docs.js';
+	import { siteConfig } from '$lib/config/site.js';
 
 	let open = false;
 </script>
@@ -36,14 +36,25 @@
 					{/if}
 				{/each}
 			</div>
+			<div class="border-pink w-1/2 border-b-4 pt-5"></div>
 			<div class="flex flex-col space-y-2">
-				{#each docsConfig.sidebarNav as navItem, index (index)}
-					<div class="flex flex-col space-y-3 pt-6">
-						<h4 class="font-medium">{navItem.title}</h4>
+				<div class="flex flex-col space-y-3 pt-6">
+					<MobileLink
+						target="_blank"
+						rel="nofollow noreferrer"
+						href={siteConfig.links.linkedin}
+						bind:open
+						class="text-foreground"
+					>
+						Consultorías
+						<Icons.external class=" inline h-3 w-3 align-[initial]" />
+					</MobileLink>
+					<!-- <h4 class="font-medium">{navItem.title}</h4> -->
+					{#each docsConfig.sidebarNav as navItem, index (index)}
 						{#if navItem?.items?.length}
 							{#each navItem.items as item}
 								{#if !item.disabled && item.href}
-									<MobileLink href={item.href} bind:open>
+									<MobileLink href={item.href} bind:open class="text-foreground">
 										{item.title}
 										{#if item.label}
 											<span
@@ -56,8 +67,8 @@
 								{/if}
 							{/each}
 						{/if}
-					</div>
-				{/each}
+					{/each}
+				</div>
 			</div>
 		</ScrollArea>
 	</Sheet.Content>

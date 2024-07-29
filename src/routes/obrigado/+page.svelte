@@ -31,7 +31,7 @@
 			<!-- <a
 				target="_blank"
 				rel="noreferrer"
-				href={siteConfig.links.github}
+				href={siteConfig.links.linkedin}
 				class={cn(buttonVariants({ variant: 'outline' }))}
 			>
 				<Icons.gitHub class="mr-2 h-4 w-4" />

@@ -7,9 +7,18 @@
 		<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
 			<p class="text-center text-sm leading-loose text-muted-foreground md:text-left">
 				Desenvolvido por
-				<a href={siteConfig.links.author} class="font-medium underline underline-offset-4">
-					minimo</a
-				>. Nos ombros
+				<a
+					href={siteConfig.links.linkedin}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="font-medium underline underline-offset-4"
+				>
+					minimo-io</a
+				>
+				|
+				<a href="/sponsors" class="font-medium underline underline-offset-4">Patrocinadores</a>
+
+				<!-- Nos ombros de
 				<a
 					href="https://x.com/shadcn"
 					target="_blank"
@@ -26,7 +35,7 @@
 					class="font-medium underline underline-offset-4"
 				>
 					huntabyte</a
-				>.
+				>. -->
 			</p>
 		</div>
 	</div>

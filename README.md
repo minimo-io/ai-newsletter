@@ -2,7 +2,7 @@
 
 An **AI newsletter and resources** project for the Brazilian market, aka Brainwaves.
 
-Built using the [SvelteKit](https://kit.svelte.dev/) framework, with [shand-cn](shadcn-svelte) for the UI, [Supabase](https://supabase.com/) for authentication and PostgreSQL database and [Beehiiv](https://www.beehiiv.com/) as a newsletter platform.
+Built using the [SvelteKit](https://kit.svelte.dev/) framework, with [shand-cn](shadcn-svelte) for the UI, [Supabase](https://supabase.com/) for authentication and PostgreSQL database and [Beehiiv](https://www.beehiiv.com/) as a newsletter platform. Brainwaves also uses a Git-based CMS.
 
 👉 Find the [project homepage here](https://newsletter.minimo.io).
 

@@ -88,12 +88,6 @@
 	}
 }
 @layer base {
-	/* @font-face {
-		font-family: 'geist-sans';
-		src: url('/fonts/Geist/geist.woff2') format('woff2');
-		font-display: swap;
-	} */
-
 	* {
 		@apply border-border;
 	}
@@ -149,8 +143,34 @@
 		-moz-osx-font-smoothing: grayscale;
 	}
 }
-
 @layer utilities {
+	.partial-border {
+		position: relative; /* Necessary for absolute positioning of pseudo-element */
+	}
+
+	.partial-border::after {
+		--partial-border-height: 8px;
+		content: '';
+		position: absolute;
+		bottom: 0px;
+		right: 0;
+		width: 93%;
+		height: var(--partial-border-height);
+		border-bottom: var(--partial-border-height) solid #de3daf;
+	}
+
+	@media (max-width: 768px) {
+		.partial-border::after {
+			--partial-border-height: 4px;
+			bottom: -1px;
+		}
+	}
+	.partial-border-sm::after {
+		--partial-border-height: 2px;
+		bottom: -2px;
+		width: 100%;
+	}
+
 	.step {
 		counter-increment: step;
 	}

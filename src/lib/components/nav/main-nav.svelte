@@ -27,14 +27,18 @@
 				</a>
 			{/if}
 		{/each}
+
 		<a
-			href="/b2b"
+			href="https://www.linkedin.com/in/nicolas-erramuspe/"
+			target="_blank"
+			rel="nofollow noreferrer"
 			class={cn(
 				'transition-colors hover:text-foreground/80',
 				$page.url.pathname.startsWith('/b2b') ? 'text-foreground' : 'text-foreground/60'
 			)}
 		>
-			Consultorias em IA
+			<span>Consultorias</span>
+			<Icons.external class=" inline h-3 w-3 align-middle" />
 		</a>
 	</nav>
 </div>

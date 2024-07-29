@@ -1,0 +1,27 @@
+# example: https://github.com/minimo-io/neat-starter-11ty/blob/master/src/admin/config.yml
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: 'static/img' # Folder where user uploaded files should go
+
+public_folder: 'img'
+collections:
+  - label: 'Blog'
+    name: 'blog'
+    folder: 'src/routes/news'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - widget: select
+        label: 'tags'
+        name: 'tags'
+        multiple: true
+        create: true
+        options: ['Tags', 'created', 'from', 'config.yml']
