@@ -18,6 +18,10 @@ export const docsConfig: DocsConfig = {
 		{
 			title: 'Notícias',
 			href: '/noticias'
+		},
+		{
+			title: 'Eventos',
+			href: '#'
 		}
 		// {
 		// 	title: 'Assinatura Pro',
