@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { CommandMenu, Icons, MainNav, MobileNav, ModeToggle } from '$lib/components/index.js';
-	import { buttonVariants } from '$lib/registry/new-york/ui/button/index.js';
+	import { Button } from '$lib/registry/new-york/ui/button/index.js';
 	import { siteConfig } from '$lib/config/site.js';
 	import { cn } from '$lib/utils.js';
 </script>
@@ -17,9 +17,10 @@
 			</div>
 			<!-- <ModeToggle /> -->
 			<nav class="flex items-center">
+				<Button href="/" variant="outline" class="mr-2">Entrar</Button>
 				<a
 					href="/"
-					class="bg-turquoise inline-flex h-9 items-center justify-center whitespace-nowrap rounded-md border border-input px-4 py-2 text-sm font-medium text-black shadow-sm transition-colors hover:opacity-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+					class="inline-flex h-9 items-center justify-center whitespace-nowrap rounded-md border border-input bg-turquoise px-4 py-2 text-sm font-medium text-black shadow-sm transition-colors hover:opacity-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
 				>
 					Inscreva-se
 				</a>

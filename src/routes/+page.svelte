@@ -15,7 +15,7 @@
 	<PageHeader.Root class="pb-8">
 		<Announcement class="z-10 text-xs md:text-sm" />
 		<a href="/" class="mt-2 flex items-center text-sm md:text-xl">
-			<span class=" mr-2 font-bold sm:inline-block"> {siteConfig.name} </span>
+			<span class=" mr-2 font-bold uppercase sm:inline-block"> {siteConfig.name} </span>
 			<Icons.logo class="mr-2 h-6 w-6" />
 			<span class=" font-bold sm:inline-block"> NEWSLETTER </span>
 		</a>
@@ -47,49 +47,49 @@
 		<div class="z-10 grid w-full grid-cols-2 gap-4 px-4 pb-4 md:w-auto md:gap-4 xl:grid-cols-4">
 			<div>
 				<Card.Root
-					class="border-chineseX2 dark:bg-chinese z-10 w-full bg-white text-center uppercase"
+					class="z-10 w-full border-chineseX2 bg-white text-center uppercase dark:bg-chinese"
 				>
 					<Card.Header class="p-4 md:p-6">
-						<Card.Title class="text-chinese text-2xl font-light dark:text-white md:text-3xl"
+						<Card.Title class="text-2xl font-light text-chinese dark:text-white md:text-3xl"
 							>+1200</Card.Title
 						>
-						<Card.Description class="text-oslo text-xs ">empresários</Card.Description>
+						<Card.Description class="text-xs text-oslo ">empresários</Card.Description>
 					</Card.Header>
 				</Card.Root>
 			</div>
 			<div>
 				<Card.Root
-					class="border-chineseX2 dark:bg-chinese z-10 w-full bg-white text-center uppercase"
+					class="z-10 w-full border-chineseX2 bg-white text-center uppercase dark:bg-chinese"
 				>
 					<Card.Header class="p-4 md:p-6">
-						<Card.Title class="text-chinese text-2xl font-light dark:text-white md:text-3xl"
+						<Card.Title class="text-2xl font-light text-chinese dark:text-white md:text-3xl"
 							>50</Card.Title
 						>
-						<Card.Description class="text-oslo text-center text-xs ">ferramentas</Card.Description>
+						<Card.Description class="text-center text-xs text-oslo ">ferramentas</Card.Description>
 					</Card.Header>
 				</Card.Root>
 			</div>
 			<div>
 				<Card.Root
-					class="border-chineseX2 dark:bg-chinese z-10 w-full bg-white text-center uppercase"
+					class="z-10 w-full border-chineseX2 bg-white text-center uppercase dark:bg-chinese"
 				>
 					<Card.Header class="p-4 md:p-6">
-						<Card.Title class="text-chinese text-2xl font-light dark:text-white md:text-3xl"
+						<Card.Title class="text-2xl font-light text-chinese dark:text-white md:text-3xl"
 							>12</Card.Title
 						>
-						<Card.Description class="text-oslo text-center text-xs">cursos</Card.Description>
+						<Card.Description class="text-center text-xs text-oslo">cursos</Card.Description>
 					</Card.Header>
 				</Card.Root>
 			</div>
 			<div>
 				<Card.Root
-					class="border-chineseX2 dark:bg-chinese z-10 w-full bg-white text-center uppercase"
+					class="z-10 w-full border-chineseX2 bg-white text-center uppercase dark:bg-chinese"
 				>
 					<Card.Header class="p-4 md:p-6">
-						<Card.Title class="text-chinese text-2xl font-light dark:text-white md:text-3xl"
+						<Card.Title class="text-2xl font-light text-chinese dark:text-white md:text-3xl"
 							>3151</Card.Title
 						>
-						<Card.Description class="text-oslo text-center text-xs ">notícias</Card.Description>
+						<Card.Description class="text-center text-xs text-oslo ">notícias</Card.Description>
 					</Card.Header>
 				</Card.Root>
 			</div>

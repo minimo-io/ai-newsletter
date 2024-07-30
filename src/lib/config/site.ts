@@ -1,5 +1,5 @@
 export const siteConfig = {
-	name: 'BRAINWAVES',
+	name: 'GetBrains',
 	url: 'https://newsletter.minimo.io',
 	ogImage: 'https://newsletter.minimo.io/og.png',
 	description: 'Impulsione o seu negócio com o poder da IA!',

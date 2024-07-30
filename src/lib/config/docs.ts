@@ -20,8 +20,8 @@ export const docsConfig: DocsConfig = {
 			href: '/noticias'
 		},
 		{
-			title: 'Eventos',
-			href: '#'
+			title: 'Treinamentos',
+			href: '/treinamentos'
 		}
 		// {
 		// 	title: 'Assinatura Pro',
