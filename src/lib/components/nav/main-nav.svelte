@@ -40,7 +40,7 @@
 			<span>Consultorias</span>
 			<Icons.external class=" inline h-3 w-3 align-middle" />
 		</a>
-		<a
+		<!-- <a
 			href="/sponsors"
 			class={cn(
 				'transition-colors hover:text-foreground/80',
@@ -49,6 +49,6 @@
 		>
 			<Icons.medal class=" inline h-3 w-3 align-middle" />
 			<span>Sponsors</span>
-		</a>
+		</a> -->
 	</nav>
 </div>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { Icons } from '$lib/components/icons/index.js';
 	import { siteConfig } from '$lib/config/site.js';
 </script>
 
@@ -15,8 +16,11 @@
 				>
 					minimo-io</a
 				>
-				<!-- |
-				<a href="/sponsors" class="font-medium underline underline-offset-4">Patrocinadores</a> -->
+				/
+				<a href="/patrocinadores" class="font-medium underline underline-offset-4">
+					<Icons.medal class=" inline h-3 w-3 align-middle" />
+					Patrocinadores
+				</a>
 
 				<!-- Nos ombros de
 				<a

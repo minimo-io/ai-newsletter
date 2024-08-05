@@ -22,6 +22,10 @@ export const docsConfig: DocsConfig = {
 		{
 			title: 'Treinamentos',
 			href: '/treinamentos'
+		},
+		{
+			title: 'Preços',
+			href: '/precos'
 		}
 		// {
 		// 	title: 'Assinatura Pro',

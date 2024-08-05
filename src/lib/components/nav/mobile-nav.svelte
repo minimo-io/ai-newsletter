@@ -37,7 +37,7 @@
 					{/if}
 				{/each}
 			</div>
-			<div class="border-pink w-1/2 border-b-4 pt-5"></div>
+			<div class="w-1/2 border-b-4 border-pink pt-5"></div>
 			<div class="flex flex-col space-y-2">
 				<div class="flex flex-col space-y-3 pt-6">
 					<MobileLink
@@ -50,10 +50,10 @@
 						Consultorías
 						<Icons.external class=" inline h-3 w-3 align-[initial]" />
 					</MobileLink>
-					<MobileLink href="/sponsors" bind:open class="text-foreground">
+					<!-- <MobileLink href="/sponsors" bind:open class="text-foreground">
 						Sponsors
 						<Icons.medal class=" inline h-3 w-3 align-[initial]" />
-					</MobileLink>
+					</MobileLink> -->
 					<!-- <h4 class="font-medium">{navItem.title}</h4> -->
 					{#each docsConfig.sidebarNav as navItem, index (index)}
 						{#if navItem?.items?.length}
